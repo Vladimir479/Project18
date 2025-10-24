@@ -1,4 +1,5 @@
 #Homewor7
+
 #define _CRT_SECURE_NO_DEPRECATE
 
 #include <stdio.h>
@@ -6,7 +7,9 @@
 #include <locale.h>
 
 int main() {
+   
     setlocale(LC_CTYPE, "RUS");
+    
     int grade;
     printf("Введите оценку (1-5): ");
     scanf("%d", &grade); 
